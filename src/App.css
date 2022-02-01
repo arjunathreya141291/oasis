@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  display: grid;
+  grid-template-rows: 30px 40px 30px auto;
+  grid-template-areas:
+    "firstBar"
+    "secondBar"
+    "thirdBar"
+    "banner";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.firstBar {
+  font: normal normal normal 14px/20px Soleil;
+  letter-spacing: 0px;
+  color: #62686a;
+  opacity: 1;
+  background: #f4f5f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  grid-area: firstBar;
+}
+
+.secondBar {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  grid-area: secondBar;
+}
+
+.thirdBar {
+  background: #f4f5f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  grid-area: thirdBar;
+}
+
+.banner {
+  grid-area: banner;
+}
+
+.firstBar-container {
+  display: grid;
+  grid-template-rows: 30px;
+  grid-template-areas: "shipping . store";
+}
+
+.shipping {
+  grid-area: shipping;
+  align-self: center;
+  padding-left: 20px;
+}
+
+.store {
+  grid-area: store;
+  align-self: center;
+  justify-self: end;
+  padding-right: 20px;
+}
+
+.secondBar-container {
+  display: grid;
+  grid-template-rows: 40px;
+  grid-template-areas: "logo search sign-in";
+}
+
+.logo {
+  width: 150px;
+  height: 30px;
+  grid-area: logo;
+  align-self: center;
+  padding-left: 22px;
+}
+
+.search {
+  grid-area: search;
+  align-self: center;
+}
+
+.sign-in {
+  grid-area: sign-in;
+  align-self: center;
+  justify-self: end;
+  padding-right: 22px;
+}
+
+.tg-nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 2;
+  text-align: left;
+  font: normal normal normal 16px/20px Soleil;
+  letter-spacing: 0px;
+  color: #353839;
+  opacity: 1;
+  font-size: 22px;
 }
 
-.App-link {
-  color: #61dafb;
+.tg-navigation {
+  float: left;
+  padding: 2px;
+  line-height: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tg-navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: inherit;
 }
+
+.tg-navigation > ul {
+  width: 100%;
+  float: left;
+}
+
+.tg-navigation ul li {
+  line-height: inherit;
+  list-style-type: none;
+}
+
+.tg-navigation > ul > li {
+  float: left;
+}
+
+.tg-navigation ul li a {
+  color: #666;
+  display: block;
+  padding: 0 25px;
+  position: relative;
+  line-height: inherit;
+}
+
+/* .searchBar {
+  padding-top: 15px;
+} */
