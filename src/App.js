@@ -186,7 +186,6 @@ function App() {
                 maxWidth: "100%",
                 maxHeight: "100%",
                 objectFit: "cover",
-                paddingTop: "10px",
               }}
             />
           </div>

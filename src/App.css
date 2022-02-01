@@ -48,7 +48,16 @@ body {
 .firstBar-container {
   display: grid;
   grid-template-rows: 30px;
-  grid-template-areas: "shipping . store";
+  grid-template-columns: 6% 25% auto 25% 6%;
+  grid-template-areas: "fbl shipping . store fbr";
+}
+
+.fbl {
+  grid-area: left;
+}
+
+.fbr {
+  grid-area: right;
 }
 
 .shipping {
@@ -67,7 +76,16 @@ body {
 .secondBar-container {
   display: grid;
   grid-template-rows: 40px;
-  grid-template-areas: "logo search sign-in";
+  grid-template-columns: 6% 25% auto 25% 6%;
+  grid-template-areas: "sbl logo search sign-in sbr";
+}
+
+.sbl {
+  grid-area: sbl;
+}
+
+.sbr {
+  grid-area: sbr;
 }
 
 .logo {
