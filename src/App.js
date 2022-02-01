@@ -176,11 +176,22 @@ function App() {
         </nav>
       </div>
       <div className="banner">
-        <img
-          src={Banner}
-          alt="Banner"
-          style={{ width: "100%", height: "95%" }}
-        />
+        <div className="banner-container">
+          <div className="banner-column-one"></div>
+          <div className="banner-column-two">
+            <img
+              src={Banner}
+              alt="Banner"
+              style={{
+                maxWidth: "100%",
+                maxHeight: "100%",
+                objectFit: "cover",
+                paddingTop: "10px",
+              }}
+            />
+          </div>
+          <div className="banner-column-three"></div>
+        </div>
       </div>
     </div>
   );
