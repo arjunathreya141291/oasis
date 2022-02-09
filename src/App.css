@@ -48,7 +48,7 @@ body {
 .firstBar-container {
   display: grid;
   grid-template-rows: 30px;
-  grid-template-columns: 12% 25% auto 25% 12%;
+  grid-template-columns: 15% 25% auto 25% 15%;
   grid-template-areas: "fbl shipping . store fbr";
 }
 
@@ -76,7 +76,7 @@ body {
 .secondBar-container {
   display: grid;
   grid-template-rows: 40px;
-  grid-template-columns: 12% 25% auto 25% 12%;
+  grid-template-columns: 15% 25% auto 25% 15%;
   grid-template-areas: "sbl logo search sign-in sbr";
 }
 
@@ -99,6 +99,7 @@ body {
 .search {
   grid-area: search;
   align-self: center;
+  padding-top: 15px;
 }
 
 .sign-in {
@@ -163,7 +164,7 @@ body {
 .banner-container {
   display: grid;
   grid-template-rows: auto 935px auto;
-  grid-template-columns: auto 1250px auto;
+  grid-template-columns: auto 1300px auto;
   grid-template-areas: "first second third";
 }
 
@@ -207,4 +208,70 @@ body {
   color: #353839;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.pop-container {
+  display: grid;
+  column-gap: 15px;
+  grid-template-columns: 200px 200px auto;
+  grid-template-areas: "search category recommended";
+}
+
+.suggested-search {
+  grid-area: search;
+  font: normal normal normal 14px/21px Soleil;
+  color: #505050;
+}
+
+.suggested-category {
+  grid-area: category;
+  font: normal normal normal 14px/21px Soleil;
+  color: #505050;
+}
+
+.recommended {
+  grid-area: recommended;
+  font: normal normal normal 14px/21px Soleil;
+  color: #505050;
+}
+
+#popover-basic {
+  max-width: none !important;
+  width: 1600px !important;
+}
+
+.pop-heading {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.pop-span {
+  font-weight: bold;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recs-container {
+  display: grid;
+  grid-template-areas: "firstf secondf thirdf fourthf";
+}
+
+.firstf {
+  grid-area: firstf;
+}
+
+.secondf {
+  grid-area: secondf;
+}
+
+.thirdf {
+  grid-area: thirdf;
+}
+
+.fourthf {
+  grid-area: fourthf;
 }
