@@ -51,17 +51,312 @@ function App() {
       <div className="firstBar">
         <div className="firstBar-container">
           <div className="shipping">
-            <FontAwesomeIcon icon={faShippingFast} /> &nbsp; Free shipping
-            worldwide over $150 &nbsp;| &nbsp; <FontAwesomeIcon icon={faUndo} />{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16.203"
+              height="16"
+              viewBox="0 0 16.203 16"
+            >
+              <g
+                id="icon_-_ship"
+                data-name="icon - ship"
+                transform="translate(-15)"
+              >
+                <rect
+                  id="Canvas"
+                  width="16"
+                  height="16"
+                  transform="translate(15)"
+                  fill="rgba(255,19,220,0)"
+                />
+                <g id="ship" transform="translate(15.802 3.074)">
+                  <path
+                    id="Stroke-4"
+                    d="M21.844,27.554a1.6,1.6,0,0,1-1.6,1.6,1.6,1.6,0,1,1,0-3.207A1.6,1.6,0,0,1,21.844,27.554Z"
+                    transform="translate(-16.198 -19.268)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Stroke-6"
+                    d="M29.757,27.554a1.6,1.6,0,0,1-1.6,1.6,1.6,1.6,0,1,1,0-3.207A1.6,1.6,0,0,1,29.757,27.554Z"
+                    transform="translate(-17.061 -19.268)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Stroke-8"
+                    d="M20.377,20.587H15.9"
+                    transform="translate(-15.9 -17.981)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Stroke-12"
+                    d="M18.359,24.825H16.088"
+                    transform="translate(-15.921 -19.449)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Stroke-14"
+                    d="M22.237,27.75H26.08"
+                    transform="translate(-16.591 -19.464)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Stroke-16"
+                    d="M16.463,27.75H18.4"
+                    transform="translate(-15.961 -19.464)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Stroke-1"
+                    d="M16.538,18.45h8.887v4.243h4.21l1.236,1.2v3.441H28.833"
+                    transform="translate(-15.97 -18.45)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Stroke-3"
+                    d="M26.475,19.2h2.673l1.437,3.408"
+                    transform="translate(-17.053 -18.532)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </g>
+              </g>
+            </svg>{" "}
+            &nbsp; Free shipping worldwide over $150 &nbsp;| &nbsp;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+            >
+              <g
+                id="icon_-_ship"
+                data-name="icon - ship"
+                transform="translate(0.024)"
+              >
+                <rect
+                  id="Canvas"
+                  width="16"
+                  height="16"
+                  transform="translate(-0.024)"
+                  fill="rgba(255,19,220,0)"
+                />
+                <g id="return" transform="translate(3.328 3.352)">
+                  <path
+                    id="Path_38191"
+                    data-name="Path 38191"
+                    d="M899.935,1383.662l-2-2,2-2"
+                    transform="translate(-897.938 -1379.668)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_38192"
+                    data-name="Path 38192"
+                    d="M897.938,1382.668h5.325a3.994,3.994,0,1,1,0,7.988h-5.325"
+                    transform="translate(-897.938 -1380.671)"
+                    fill="none"
+                    stroke="#353839"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </g>
+              </g>
+            </svg>
             &nbsp; Free and easy returns
           </div>
           <div className="store">
             Contact &nbsp; | &nbsp; Select store{" "}
-            <FontAwesomeIcon icon={faCaretDown} /> &nbsp; | &nbsp; English, USD
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+            >
+              <g id="chevron" transform="translate(0 0.001)">
+                <g id="icon-Chevron">
+                  <rect
+                    id="Frame"
+                    width="16"
+                    height="16"
+                    transform="translate(0 -0.001)"
+                    fill="#f0f"
+                    opacity="0"
+                  />
+                  <g
+                    id="Group_141210"
+                    data-name="Group 141210"
+                    transform="translate(4.96 6.552)"
+                  >
+                    <line
+                      id="Line_633"
+                      data-name="Line 633"
+                      y2="4.237"
+                      transform="translate(0 0.001) rotate(-45)"
+                      fill="none"
+                      stroke="#353839"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                    />
+                    <line
+                      id="Line_634"
+                      data-name="Line 634"
+                      x1="4.237"
+                      transform="translate(2.996 2.996) rotate(-45)"
+                      fill="none"
+                      stroke="#353839"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+            &nbsp; | &nbsp; English, USD &nbsp;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+            >
+              <g
+                id="Group_141208"
+                data-name="Group 141208"
+                transform="translate(0)"
+              >
+                <circle
+                  id="Ellipse_289"
+                  data-name="Ellipse 289"
+                  cx="8"
+                  cy="8"
+                  r="8"
+                  transform="translate(0)"
+                  fill="#f0f0f0"
+                />
+                <g
+                  id="Group_141207"
+                  data-name="Group 141207"
+                  transform="translate(0.27 1.927)"
+                >
+                  <path
+                    id="Path_38317"
+                    data-name="Path 38317"
+                    d="M244.87,191.262h8.179a7.846,7.846,0,0,0-.27-2.045H244.87Z"
+                    transform="translate(-237.643 -185.128)"
+                    fill="#d80027"
+                  />
+                  <path
+                    id="Path_38318"
+                    data-name="Path 38318"
+                    d="M244.87,57.7H251.9a7.879,7.879,0,0,0-1.809-2.045h-5.22Z"
+                    transform="translate(-237.643 -55.652)"
+                    fill="#d80027"
+                  />
+                  <path
+                    id="Path_38319"
+                    data-name="Path 38319"
+                    d="M101.523,458.052a7.8,7.8,0,0,0,4.879-1.7H96.644A7.8,7.8,0,0,0,101.523,458.052Z"
+                    transform="translate(-93.955 -444.08)"
+                    fill="#d80027"
+                  />
+                  <path
+                    id="Path_38320"
+                    data-name="Path 38320"
+                    d="M9.7,324.827H23.074a7.791,7.791,0,0,0,.88-2.045H8.819A7.791,7.791,0,0,0,9.7,324.827Z"
+                    transform="translate(-8.819 -314.603)"
+                    fill="#d80027"
+                  />
+                </g>
+                <path
+                  id="Path_38321"
+                  data-name="Path 38321"
+                  d="M3.631,1.224h.714l-.664.483.254.781L3.27,2l-.664.483.219-.675A7.881,7.881,0,0,0,1.3,3.507h.229l-.423.307q-.1.165-.19.335l.2.622L.746,4.5q-.14.3-.256.608l.222.685h.821l-.664.483.254.781L.459,6.571l-.4.289A7.913,7.913,0,0,0,0,7.838H7.838V0A7.8,7.8,0,0,0,3.631,1.224Zm.3,5.83L3.27,6.571l-.664.483.254-.781L2.2,5.79h.821l.254-.781.254.781h.821l-.664.483ZM3.681,3.99l.254.781L3.27,4.288l-.664.483.254-.781L2.2,3.507h.821l.254-.781.254.781h.821ZM6.746,7.054l-.664-.483-.664.483.254-.781L5.006,5.79h.821l.254-.781.254.781h.821l-.664.483ZM6.492,3.99l.254.781-.664-.483-.664.483.254-.781-.664-.483h.821l.254-.781.254.781h.821Zm0-2.283.254.781L6.081,2l-.664.483.254-.781-.664-.483h.821L6.081.443l.254.781h.821Z"
+                  transform="translate(0 0.223)"
+                  fill="#0052b4"
+                />
+              </g>
+            </svg>
             &nbsp;
-            <FontAwesomeIcon icon={faFlagUsa} />
-            &nbsp;
-            <FontAwesomeIcon icon={faCaretDown} />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+            >
+              <g id="chevron" transform="translate(0 0.001)">
+                <g id="icon-Chevron">
+                  <rect
+                    id="Frame"
+                    width="16"
+                    height="16"
+                    transform="translate(0 -0.001)"
+                    fill="#f0f"
+                    opacity="0"
+                  />
+                  <g
+                    id="Group_141210"
+                    data-name="Group 141210"
+                    transform="translate(4.96 6.552)"
+                  >
+                    <line
+                      id="Line_633"
+                      data-name="Line 633"
+                      y2="4.237"
+                      transform="translate(0 0.001) rotate(-45)"
+                      fill="none"
+                      stroke="#353839"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                    />
+                    <line
+                      id="Line_634"
+                      data-name="Line 634"
+                      x1="4.237"
+                      transform="translate(2.996 2.996) rotate(-45)"
+                      fill="none"
+                      stroke="#353839"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
           </div>
         </div>
       </div>
@@ -162,7 +457,52 @@ function App() {
             >
               <InputGroup size="sm" className="mb-3">
                 <InputGroup.Text id="inputGroup-sizing-sm">
-                  All categories &nbsp; <FontAwesomeIcon icon={faCaretDown} />
+                  All categories &nbsp;{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <g id="chevron" transform="translate(0 0.001)">
+                      <g id="icon-Chevron">
+                        <rect
+                          id="Frame"
+                          width="16"
+                          height="16"
+                          transform="translate(0 -0.001)"
+                          fill="#f0f"
+                          opacity="0"
+                        />
+                        <g
+                          id="Group_141210"
+                          data-name="Group 141210"
+                          transform="translate(4.96 6.552)"
+                        >
+                          <line
+                            id="Line_633"
+                            data-name="Line 633"
+                            y2="4.237"
+                            transform="translate(0 0.001) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                          <line
+                            id="Line_634"
+                            data-name="Line 634"
+                            x1="4.237"
+                            transform="translate(2.996 2.996) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
                 </InputGroup.Text>
                 <FormControl
                   placeholder="Search..."
@@ -174,42 +514,440 @@ function App() {
             </OverlayTrigger>
           </div>
           <div className="sign-in">
-            <FontAwesomeIcon icon={faUser} /> &nbsp; Sign in &nbsp;&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faLayerGroup} /> &nbsp;&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faShoppingCart} />
+            <svg
+              id="icon-user"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <rect
+                id="area"
+                width="24"
+                height="24"
+                fill="none"
+                opacity="0.3"
+              />
+              <g id="user" transform="translate(4 3)">
+                <path
+                  id="Path_38126"
+                  data-name="Path 38126"
+                  d="M592.025,1220.853a2.843,2.843,0,0,1-2.36-1.256l-.035-.053-.026-.058a10.47,10.47,0,0,1-1.7-6.437,4.2,4.2,0,0,1,4.182-4.078h.072l.07,0a4.115,4.115,0,0,1,4.349,4.1,10.524,10.524,0,0,1-1.655,6.354l-.078.116a2.98,2.98,0,0,1-2.444,1.3c-.054,0-.108,0-.162,0C592.164,1220.85,592.095,1220.853,592.025,1220.853Z"
+                  transform="translate(-584.546 -1208.971)"
+                  fill="none"
+                  stroke="#353839"
+                  stroke-width="1.5"
+                />
+                <path
+                  id="Path_38127"
+                  data-name="Path 38127"
+                  d="M584.546,1227.9a21.127,21.127,0,0,1,.353-3.37c.215-1.011,1.8-2.145,4.228-3.021a1.137,1.137,0,0,0,.694-.7l.028-.075"
+                  transform="translate(-584.546 -1208.971)"
+                  fill="none"
+                  stroke="#353839"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                />
+                <path
+                  id="Path_38128"
+                  data-name="Path 38128"
+                  d="M594.645,1220.762l.033.091a1.13,1.13,0,0,0,.7.691c1.791.61,3.97,1.768,4.217,3.021a17.693,17.693,0,0,1,.305,3.335"
+                  transform="translate(-584.546 -1208.971)"
+                  fill="none"
+                  stroke="#353839"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                />
+              </g>
+            </svg>{" "}
+            &nbsp;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="52"
+              height="20"
+              viewBox="0 0 52 20"
+            >
+              <text
+                id="Sign_in"
+                data-name="Sign in"
+                transform="translate(0 15)"
+                fill="#353839"
+                font-size="16"
+                font-family="SoleilBk, Soleil"
+              >
+                <tspan x="0" y="0">
+                  Sign in
+                </tspan>
+              </text>
+            </svg>
+            &nbsp;&nbsp;&nbsp;
+            <svg
+              id="Bulk"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <rect
+                id="area"
+                width="24"
+                height="24"
+                fill="none"
+                opacity="0.3"
+              />
+              <g id="icon-bulk" transform="translate(-211.835 -361.955)">
+                <path
+                  id="Path_38463"
+                  data-name="Path 38463"
+                  d="M223.584,369.954h-2.25V367.7a.75.75,0,0,0-1.5,0v2.25h-2.25a.75.75,0,1,0,0,1.5h2.25v2.25a.75.75,0,0,0,1.5,0v-2.25h2.25a.75.75,0,0,0,0-1.5Z"
+                  fill="#353839"
+                />
+                <path
+                  id="Path_38464"
+                  data-name="Path 38464"
+                  d="M227.334,375.2v-9a2.253,2.253,0,0,0-2.25-2.25h-9a2.252,2.252,0,0,0-2.25,2.25v9a2.253,2.253,0,0,0,2.25,2.25h9A2.253,2.253,0,0,0,227.334,375.2Zm-12,0v-9a.751.751,0,0,1,.75-.75h9a.752.752,0,0,1,.75.75v9a.752.752,0,0,1-.75.75h-9A.751.751,0,0,1,215.334,375.2Z"
+                  fill="#353839"
+                />
+                <path
+                  id="Path_38465"
+                  data-name="Path 38465"
+                  d="M230.334,378.2v-9a2.248,2.248,0,0,0-1.5-2.112V378.2a.752.752,0,0,1-.75.75H216.972a2.248,2.248,0,0,0,2.112,1.5h9A2.253,2.253,0,0,0,230.334,378.2Z"
+                  fill="#353839"
+                />
+                <path
+                  id="Path_38466"
+                  data-name="Path 38466"
+                  d="M231.834,370.092V381.2a.752.752,0,0,1-.75.75H219.972a2.248,2.248,0,0,0,2.112,1.5h9a2.253,2.253,0,0,0,2.25-2.25v-9A2.248,2.248,0,0,0,231.834,370.092Z"
+                  fill="#353839"
+                />
+              </g>
+            </svg>{" "}
+            &nbsp;&nbsp;&nbsp;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g id="Cart" transform="translate(-80)">
+                <g id="Icon_Cart" transform="translate(80)">
+                  <rect
+                    id="area"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    opacity="0.3"
+                  />
+                  <g id="Cart-2" data-name="Cart" transform="translate(2 2)">
+                    <circle
+                      id="Ellipse_19"
+                      data-name="Ellipse 19"
+                      cx="1.5"
+                      cy="1.5"
+                      r="1.5"
+                      transform="translate(2.392 16.11)"
+                      fill="none"
+                      stroke="#353839"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                    />
+                    <circle
+                      id="Ellipse_20"
+                      data-name="Ellipse 20"
+                      cx="1.5"
+                      cy="1.5"
+                      r="1.5"
+                      transform="translate(15.392 16.11)"
+                      fill="none"
+                      stroke="#353839"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                    />
+                    <path
+                      id="Path_21"
+                      data-name="Path 21"
+                      d="M26,25.1H13.473L11.684,9H9"
+                      transform="translate(-9 -9)"
+                      fill="none"
+                      stroke="#353839"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                    />
+                    <path
+                      id="Path_22"
+                      data-name="Path 22"
+                      d="M40,45l16.6,1.789-.8,7.157H40.994"
+                      transform="translate(-36.918 -41.421)"
+                      fill="none"
+                      stroke="#353839"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
           </div>
         </div>
       </div>
       <div className="thirdBar">
         <nav id="tg-nav" class="tg-nav">
-          <div
-            id="tg-navigation"
-            class="collapse navbar-collapse tg-navigation"
-          >
+          <div id="tg-navigation" class=" tg-navigation">
             <ul>
               <li>
                 <a>
-                  All products <FontAwesomeIcon icon={faCaretDown} />
+                  All products{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <g id="chevron" transform="translate(0 0.001)">
+                      <g id="icon-Chevron">
+                        <rect
+                          id="Frame"
+                          width="16"
+                          height="16"
+                          transform="translate(0 -0.001)"
+                          fill="#f0f"
+                          opacity="0"
+                        />
+                        <g
+                          id="Group_141210"
+                          data-name="Group 141210"
+                          transform="translate(4.96 6.552)"
+                        >
+                          <line
+                            id="Line_633"
+                            data-name="Line 633"
+                            y2="4.237"
+                            transform="translate(0 0.001) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                          <line
+                            id="Line_634"
+                            data-name="Line 634"
+                            x1="4.237"
+                            transform="translate(2.996 2.996) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
                 </a>
               </li>
               <li>
                 <a>
-                  By space <FontAwesomeIcon icon={faCaretDown} />
+                  By space{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <g id="chevron" transform="translate(0 0.001)">
+                      <g id="icon-Chevron">
+                        <rect
+                          id="Frame"
+                          width="16"
+                          height="16"
+                          transform="translate(0 -0.001)"
+                          fill="#f0f"
+                          opacity="0"
+                        />
+                        <g
+                          id="Group_141210"
+                          data-name="Group 141210"
+                          transform="translate(4.96 6.552)"
+                        >
+                          <line
+                            id="Line_633"
+                            data-name="Line 633"
+                            y2="4.237"
+                            transform="translate(0 0.001) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                          <line
+                            id="Line_634"
+                            data-name="Line 634"
+                            x1="4.237"
+                            transform="translate(2.996 2.996) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
                 </a>
               </li>
               <li>
                 <a>
-                  By industry <FontAwesomeIcon icon={faCaretDown} />
+                  By industry{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <g id="chevron" transform="translate(0 0.001)">
+                      <g id="icon-Chevron">
+                        <rect
+                          id="Frame"
+                          width="16"
+                          height="16"
+                          transform="translate(0 -0.001)"
+                          fill="#f0f"
+                          opacity="0"
+                        />
+                        <g
+                          id="Group_141210"
+                          data-name="Group 141210"
+                          transform="translate(4.96 6.552)"
+                        >
+                          <line
+                            id="Line_633"
+                            data-name="Line 633"
+                            y2="4.237"
+                            transform="translate(0 0.001) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                          <line
+                            id="Line_634"
+                            data-name="Line 634"
+                            x1="4.237"
+                            transform="translate(2.996 2.996) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
                 </a>
               </li>
               <li>
                 <a>
-                  By job <FontAwesomeIcon icon={faCaretDown} />
+                  By job{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <g id="chevron" transform="translate(0 0.001)">
+                      <g id="icon-Chevron">
+                        <rect
+                          id="Frame"
+                          width="16"
+                          height="16"
+                          transform="translate(0 -0.001)"
+                          fill="#f0f"
+                          opacity="0"
+                        />
+                        <g
+                          id="Group_141210"
+                          data-name="Group 141210"
+                          transform="translate(4.96 6.552)"
+                        >
+                          <line
+                            id="Line_633"
+                            data-name="Line 633"
+                            y2="4.237"
+                            transform="translate(0 0.001) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                          <line
+                            id="Line_634"
+                            data-name="Line 634"
+                            x1="4.237"
+                            transform="translate(2.996 2.996) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
                 </a>
               </li>
               <li>
                 <a>
-                  By collection <FontAwesomeIcon icon={faCaretDown} />
+                  By collection{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <g id="chevron" transform="translate(0 0.001)">
+                      <g id="icon-Chevron">
+                        <rect
+                          id="Frame"
+                          width="16"
+                          height="16"
+                          transform="translate(0 -0.001)"
+                          fill="#f0f"
+                          opacity="0"
+                        />
+                        <g
+                          id="Group_141210"
+                          data-name="Group 141210"
+                          transform="translate(4.96 6.552)"
+                        >
+                          <line
+                            id="Line_633"
+                            data-name="Line 633"
+                            y2="4.237"
+                            transform="translate(0 0.001) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                          <line
+                            id="Line_634"
+                            data-name="Line 634"
+                            x1="4.237"
+                            transform="translate(2.996 2.996) rotate(-45)"
+                            fill="none"
+                            stroke="#353839"
+                            stroke-linecap="round"
+                            stroke-width="1.5"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
                 </a>
               </li>
             </ul>

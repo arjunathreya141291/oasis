@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.203" height="16" viewBox="0 0 16.203 16">
+  <g id="icon_-_ship" data-name="icon - ship" transform="translate(-15)">
+    <rect id="Canvas" width="16" height="16" transform="translate(15)" fill="rgba(255,19,220,0)"/>
+    <g id="ship" transform="translate(15.802 3.074)">
+      <path id="Stroke-4" d="M21.844,27.554a1.6,1.6,0,0,1-1.6,1.6,1.6,1.6,0,1,1,0-3.207A1.6,1.6,0,0,1,21.844,27.554Z" transform="translate(-16.198 -19.268)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke-6" d="M29.757,27.554a1.6,1.6,0,0,1-1.6,1.6,1.6,1.6,0,1,1,0-3.207A1.6,1.6,0,0,1,29.757,27.554Z" transform="translate(-17.061 -19.268)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke-8" d="M20.377,20.587H15.9" transform="translate(-15.9 -17.981)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke-12" d="M18.359,24.825H16.088" transform="translate(-15.921 -19.449)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke-14" d="M22.237,27.75H26.08" transform="translate(-16.591 -19.464)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke-16" d="M16.463,27.75H18.4" transform="translate(-15.961 -19.464)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke-1" d="M16.538,18.45h8.887v4.243h4.21l1.236,1.2v3.441H28.833" transform="translate(-15.97 -18.45)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke-3" d="M26.475,19.2h2.673l1.437,3.408" transform="translate(-17.053 -18.532)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

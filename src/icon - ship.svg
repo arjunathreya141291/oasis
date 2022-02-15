@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="icon_-_ship" data-name="icon - ship" transform="translate(0.024)">
+    <rect id="Canvas" width="16" height="16" transform="translate(-0.024)" fill="rgba(255,19,220,0)"/>
+    <g id="return" transform="translate(3.328 3.352)">
+      <path id="Path_38191" data-name="Path 38191" d="M899.935,1383.662l-2-2,2-2" transform="translate(-897.938 -1379.668)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_38192" data-name="Path 38192" d="M897.938,1382.668h5.325a3.994,3.994,0,1,1,0,7.988h-5.325" transform="translate(-897.938 -1380.671)" fill="none" stroke="#353839" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
