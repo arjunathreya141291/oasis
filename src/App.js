@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./banner.png";
 import Flag from "./Flag.png";
+import Footer from "./footer.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShippingFast } from "@fortawesome/free-solid-svg-icons";
 import { faUndo } from "@fortawesome/free-solid-svg-icons";
@@ -2532,6 +2533,18 @@ function App() {
                 <div className="view">
                   <h6>View all customers</h6>
                 </div>
+              </div>
+              <img
+                src={Footer}
+                style={{
+                  maxWidth: "100%",
+                  maxHeight: "100%",
+                  objectFit: "cover",
+                }}
+              ></img>
+              <div className="footer-writing">
+                <h4>Checkout our latest catalog and pricings</h4>
+                <h6>Download</h6>
               </div>
             </div>
           </div>

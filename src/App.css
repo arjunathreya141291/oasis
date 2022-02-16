@@ -291,3 +291,9 @@ body {
   color: #15878d;
   cursor: pointer;
 }
+
+.footer-writing {
+  position: relative;
+  bottom: 150px;
+  left: 550px;
+}
