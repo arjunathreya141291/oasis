@@ -972,7 +972,7 @@ function App() {
             <div className="hotels">
               <div className="hotels-container">
                 <div className="heading">
-                  <h4>Companies we work with</h4>
+                  <h4 style={{ paddingTop: "15px" }}>Companies we work with</h4>
                 </div>
                 <div className="logos">
                   <svg
@@ -2544,7 +2544,72 @@ function App() {
               ></img>
               <div className="footer-writing">
                 <h4>Checkout our latest catalog and pricings</h4>
-                <h6>Download</h6>
+                <h6 style={{ fontFamily: "Soleil Book 16" }}>
+                  Download catalog &nbsp;
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16.269"
+                    height="16.269"
+                    viewBox="0 0 16.269 16.269"
+                  >
+                    <g
+                      id="icon-mini-download"
+                      transform="translate(0.135 0.135)"
+                    >
+                      <g
+                        id="area"
+                        fill="#fff"
+                        stroke="#707070"
+                        stroke-width="1"
+                        opacity="0"
+                      >
+                        <rect width="16" height="16" stroke="none" />
+                        <rect
+                          x="0.5"
+                          y="0.5"
+                          width="15"
+                          height="15"
+                          fill="none"
+                        />
+                      </g>
+                      <g id="download">
+                        <path
+                          id="Path_38497"
+                          data-name="Path 38497"
+                          d="M11.994,11.251,9.123,14.122,6.251,11.251"
+                          transform="translate(-1.122 -2.019)"
+                          fill="none"
+                          stroke="#353839"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                        />
+                        <line
+                          id="Line_726"
+                          data-name="Line 726"
+                          y2="11.487"
+                          transform="translate(8 0.615)"
+                          fill="none"
+                          stroke="#353839"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                        />
+                        <line
+                          id="Line_727"
+                          data-name="Line 727"
+                          x1="14.769"
+                          transform="translate(0.615 15.384)"
+                          fill="none"
+                          stroke="#353839"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </h6>
               </div>
             </div>
           </div>

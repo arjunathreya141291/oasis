@@ -29,19 +29,19 @@ const Pop = () => {
           <div className="suggested-search">
             <p className="pop-heading">Suggested searches</p>
             <p className="pop-content">
-              <span className="pop-span">No-touch</span> faucets
+              <span className="pop-span">No-t</span>ouch faucets
             </p>
             <p className="pop-content">
-              <span className="pop-span">No-touch</span> flush
+              <span className="pop-span">No-t</span>ouch flush
             </p>
             <p className="pop-content">
-              Hands free <span className="pop-span">no-touch</span> kitchen
+              Hands free <span className="pop-span">no-t</span>ouch kitchen
             </p>
           </div>
           <div className="suggested-category">
             <p className="pop-heading">Suggested categories</p>
             <p className="pop-content">
-              <span className="pop-span">No-touch</span> accessories{" "}
+              <span className="pop-span">No-t</span>ouch accessories{" "}
               <svg
                 id="Group_171678"
                 data-name="Group 171678"
@@ -74,9 +74,8 @@ const Pop = () => {
               </svg>
             </p>
             <p className="pop-content">Proximity sensors</p>
-            <p className="pop-content">Smart faucets</p>
             <p className="pop-content">
-              The automated collection{" "}
+              Smart faucets{" "}
               <svg
                 id="Group_171678"
                 data-name="Group 171678"
@@ -108,6 +107,7 @@ const Pop = () => {
                 </text>
               </svg>
             </p>
+            <p className="pop-content">The automated collection </p>
             <p className="pop-content">Safe and sound collection</p>
           </div>
           <div className="recommended">
