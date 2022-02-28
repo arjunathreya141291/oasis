@@ -239,7 +239,8 @@ body {
 
 #popover-basic {
   max-width: none !important;
-  width: 1600px !important;
+  /* width: 2000px !important; */
+  width: 100%;
 }
 
 .pop-heading {
@@ -261,10 +262,12 @@ body {
 .recs-container {
   display: grid;
   grid-template-areas: "firstf secondf thirdf fourthf";
+  column-gap: 30px;
 }
 
 .firstf {
   grid-area: firstf;
+  /* column-gap: 100px; */
 }
 
 .secondf {
@@ -302,5 +305,8 @@ body {
 }
 
 .popover-body {
+  padding-left: 19rem !important;
+  padding-right: 19rem !important;
+  padding-top: 1rem !important;
   padding-bottom: 0 !important;
 }
